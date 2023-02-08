@@ -1,0 +1,45 @@
+.movie-section {
+    background: var(--primary);
+    color: var(--light);
+    padding: 1rem;
+    display: grid; 
+    grid-template-columns: 100px 1fr;
+    align-items: center;
+}
+
+.movie-section .movie-image {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+    border-radius: .5rem;
+    background-color: #ddd;
+}
+
+.movie-section .movie-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.movie-section .info {
+    padding-left: 1rem;
+}
+
+.movie-section .title {
+    font-weight: bold;
+}
+
+.movie-section .director {
+
+}
+
+.movie-section .ratting {
+    font-size: .9rem;
+}
+
+.movie-section .summary {
+    font-size: .9rem;
+    line-height: 1.3rem;
+}
+
